@@ -11,5 +11,8 @@ public class GoogleDemo {
         WebDriver webDriver = new ChromeDriver();
         webDriver.get("http://www.google.com");
         webDriver.findElement(By.id("olpOfferList"));
+
+        webDriver.quit();
+        webDriver.close();
     }
 }
